@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: #ffffa0;
+    box-sizing: border-box;
+}
+
+h1 {
+	color: #111;
+	font-size: 4rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 1rem 0 3rem; 
+	font-family: 'Lobster', cursive;
+}
+
+.title{
+	color: blue;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.add{
+	outline: #111;
+    border: currentColor;
+    height: 50px;
+    border-radius: 25px;
+    width: 75px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: skyblue;
+    color: #111;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+.add:hover{
+	opacity: 0.7;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.item{
+	padding: 0.5rem;
+	border-bottom: 4px solid #111;
+	margin-bottom: 1.5rem;
+}
+
+.item_input{
+	background: none;
+	outline: #111;
+	border: #111;
+	color: #111;
+	font-size: 1.4rem;
+    font-weight: bold;
+	width: 250px;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.edit{
+	background: none;
+	outline: none;
+	border: none;
+	color: blue;
+	font-size: 1.2rem;
+    font-weight: bold;
+	font-family: 'Noto Serif JP', serif;
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+
+.remove{
+	background: none;
+	outline: none;
+	border: none;
+	color: #e00;
+	font-size: 1.2rem;
+    font-weight: bold;
+	font-family: 'Noto Serif JP', serif;
+	cursor: pointer;
+}
