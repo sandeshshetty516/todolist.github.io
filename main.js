@@ -27,12 +27,12 @@ class item{
 
     	var edit = document.createElement('button');
     	edit.classList.add('edit');
-    	edit.innerHTML = "EDIT";
+    	edit.innerHTML = '<i class="far fa-edit"></i>';
     	edit.addEventListener('click', () => this.edit(input, name));
 
     	var remove = document.createElement('button');
     	remove.classList.add('remove');
-    	remove.innerHTML = "REMOVE";
+    	remove.innerHTML += '<i class= "far fa-trash-alt"></i>';
     	remove.addEventListener('click', () => this.remove(itemBox, name));
 
     	container.appendChild(itemBox);
@@ -77,9 +77,4 @@ function check(){
         window.localStorage.setItem("todos", JSON.stringify(todos));
 		inputValue.value = "";
 	}
-}
-
-
-for (var v = 0 ; v < todos.length ; v++){
-    new item(todos[v]);
 }
