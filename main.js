@@ -78,3 +78,4 @@ function check(){
 		inputValue.value = "";
 	}
 }
+
