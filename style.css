@@ -6,7 +6,7 @@
 
 body{
     height: 100%;
-    background-color: #ffffa0;
+    background-color: #ffe;
     box-sizing: border-box;
 }
 
@@ -26,6 +26,8 @@ h1 {
 }
 
 .inputDiv{
+	background: blue;
+	height: 75px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -34,28 +36,28 @@ h1 {
 .input{
     padding: 0.5rem 1rem;
     outline: none;
-    border: none;
+	border: none;
     height: 50px;
-    border-radius: 25px;
-    width: 350px;
+    border-radius: 10px;
+    width: 500px;
     margin: 0.25rem;
     transition: .5s;
     font-size: 1.15rem;
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 .add{
 	outline: #111;
     border: currentColor;
     height: 50px;
-    border-radius: 25px;
-    width: 75px;
+    border-radius: 10px;
+    width: 65px;
     font-size: 1rem;
     font-weight: bold;
-    background-color: skyblue;
-    color: #111;
+    background-color: rgb(37, 175, 37);
+    border: 0.15rem solid #111;
+    color: #fff;
     cursor: pointer;
-    transition: .5s;
     margin: 0.25rem;
 }
 
@@ -70,45 +72,59 @@ h1 {
 	align-items: center;
 	text-align: center;
 	margin-top: 2rem;
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Hind Siliguri', sans-serif;
+	background: black;
 }
 
 .item{
 	padding: 0.5rem;
-	border-bottom: 4px solid #111;
-	margin-bottom: 1.5rem;
+	width: 570px;
+	height: 50px;
+	border-radius: 10px;
+	background: white;
+	border: 0.05rem solid #111;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 
 .item_input{
 	background: none;
-	outline: #111;
-	border: #111;
-	color: #111;
+	outline: none;
+	border: none;
+	color: black;
 	font-size: 1.4rem;
     font-weight: bold;
-	width: 250px;
-    font-family: 'Noto Serif JP', serif;
+	width: 430px;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 .edit{
-	background: none;
-	outline: none;
-	border: none;
-	color: blue;
-	font-size: 1.2rem;
+	position: relative;
+	bottom: 3.5px;
+	background: #0000ff;
+	color: #fff;
+	border-radius: 5px;
+	height: 40px;
+	font-size: 1rem;
+	width: 45px;
     font-weight: bold;
-	font-family: 'Noto Serif JP', serif;
+	font-family: 'Hind Siliguri', sans-serif;
 	margin: 0 0.5rem;
 	cursor: pointer;
+    border: 0.15rem solid #111;
 }
 
 .remove{
-	background: none;
-	outline: none;
-	border: none;
-	color: #e00;
-	font-size: 1.2rem;
+	position: relative;
+	bottom: 3.5px;
+	background: #e00;
+	color: #fff;
+	height: 40px;
+	border-radius: 5px;
+	font-size: 1rem;
+	width: 45px;
     font-weight: bold;
-	font-family: 'Noto Serif JP', serif;
+	font-family: 'Hind Siliguri', sans-serif;
 	cursor: pointer;
+    border: 0.15rem solid #111;
 }
